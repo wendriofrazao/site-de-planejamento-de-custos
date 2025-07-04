@@ -11,7 +11,8 @@ Você pode **nomear o projeto**, **definir um orçamento total**, **selecionar a
 * Atualização Dinâmica: os valores são recalculados automaticamente conforme novos custos são inseridos.
 * Validação Simples: impede que o custo ultrapasse o orçamento total definido.
 * Visual clean e intuitivo: com destaque para os valores e informações principais do projeto.
-  ---
+  
+---
 ## 🖥️ Tecnologias Utilizadas
 - HTML5
 - CSS3
