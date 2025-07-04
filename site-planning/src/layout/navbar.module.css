@@ -1,0 +1,109 @@
+/* estilização da barra de navegação */
+
+.navigate {
+  background-color: rgb(67, 125, 208);
+  background-image: url("../assets/img/pexels-minan1398-1629212.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+
+  padding: 1em;
+  width: 100vw;
+  height: 140px;
+
+  display: flex;
+  align-items: center;
+
+  /* position: fixed; */
+
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.728));
+}
+
+.list {
+  margin-right: -300px;
+
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.itens.activeColor {
+  color: rgb(207, 210, 39);
+}
+
+.itens {
+  margin-left: 55px;
+
+  color: rgb(226, 219, 213);
+  font-size: 1.8rem;
+  text-decoration: none;
+
+  position: relative;
+  transition: 0.6s;
+}
+
+.itens:hover {
+  color: rgb(207, 210, 39);
+}
+
+.itens::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background-color: rgb(222, 185, 22);
+  transition: width 0.5s ease;
+}
+
+.itens:hover::before {
+  width: 100%;
+}
+
+img {
+  margin-left: -420px;
+}
+
+/* Estilização to footer */
+
+.footerNav {
+  background-color: rgb(15, 14, 14);
+  height: 105.2px;
+  width: 100vw;
+
+  margin-bottom: 0;
+
+  color: white;
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.627));
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socia_list {
+  display: flex;
+  list-style: none;
+  cursor: pointer;
+}
+
+.socia_list li {
+  margin: 1em;
+}
+
+.socia_list li:hover {
+  color: rgb(207, 210, 39);
+}
+
+.copy {
+  margin: 2em;
+}
+
+.idioma {
+  margin: 0.5em;
+  background-color: rgb(212, 199, 182);
+  border-radius: 10px;
+
+  cursor: pointer;
+}

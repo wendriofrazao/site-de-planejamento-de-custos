@@ -1,0 +1,39 @@
+.control_form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5em;
+  /* background-color: aquamarine; */
+}
+
+.control_form:focus-within {
+  border-color: green;
+}
+
+.control_form label {
+  margin-bottom: 0.6em;
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+.control_form input {
+  padding: 0.7em;
+  border-radius: 6px;
+  transition: 0.5s;
+  border: none;
+}
+
+.control_form input:focus {
+  background-color: #d2d7dd;
+  color: #171616;
+  font-size: 17px;
+  outline-color: rgb(13, 42, 159);
+}
+
+.control_form input:valid {
+  outline-color: rgb(29, 98, 29);
+  background-color: rgba(133, 169, 133, 0.346);
+}
+
+.control_form::placeholder {
+  background-color: rgb(122, 197, 197);
+}

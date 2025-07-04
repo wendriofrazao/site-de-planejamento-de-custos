@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&family=Merienda:wght@300..900&display=swap");
+
+.box_projects {
+  width: 100vw;
+  height: 100vh;
+  /* background-color: rgb(124, 143, 151); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  border-radius: 10px;
+  /* position: relative; */
+}
+
+.tema {
+  background-color: #0c587b;
+  width: 60%;
+  height: 70px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  /* position: fixed; 
+  top: 0;
+  left: 0; */
+  border-radius: 10px;
+  padding: 0 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-size: 1.1em;
+  font-family: "Fugaz One", serif;
+  font-weight: 200;
+  font-style: normal;
+  color: rgb(207, 210, 213);
+  z-index: 1000;
+}
+
+.box_projects ul {
+  /* background-color: aquamarine; */
+  width: 1500px;
+  height: 80vh;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* margin-top: 10px; */
+}
+
+.box_projects li {
+  /* background-color: #c8d1e0; */
+  margin: 25px;
+  width: 450px;
+  height: 210px;
+  border-radius: 10px;
+  /* border: 3px solid rgb(8, 70, 124); */
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.189));
+  cursor: pointer;
+  position: relative;
+  transition: 0.5s;
+}
+
+.box_projects li:hover {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.48);
+}
+
+.box_projects li h1 {
+  height: 80px;
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7c939d7d;
+  border-radius: 6px 6px 0px 0px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.461);
+  margin-bottom: 20px;
+}
+
+.box_projects li p {
+  padding: 8px;
+  background-color: #a1c7ce;
+  width: 300px;
+  margin-left: 15px;
+  margin-top: 12px;
+  border-radius: 8px;
+}
+
+.box_projects li p span {
+  color: green;
+}
+
+/* estilo de loading */
+
+.loading {
+  /*   background-color: blue; */
+  width: 200px;
+  height: 200px;
+
+  margin: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading_base {
+  background-color: #0d77e0;
+  width: 80px;
+  height: 80px;
+
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rotate_loading {
+  background-color: rgb(210, 207, 202);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+  animation: animar 0.2s ease infinite;
+}
+
+.rotate_loading::before {
+  content: "";
+  width: 15px;
+  height: 60px;
+  background-color: rgb(210, 207, 202);
+  position: absolute;
+  border-radius: 2px;
+  top: -15px;
+  left: 20px;
+}
+
+@keyframes animar {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* botoes de editar e excluir */
+
+.edit {
+  background-color: #1d26a0;
+  color: #dbd8d4;
+  width: 45px;
+  height: 40px;
+
+  position: absolute;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 10px;
+
+  border: none;
+
+  cursor: pointer;
+
+  top: 98px;
+  left: 355px;
+
+  transition: 0.4s;
+}
+
+.remove {
+  background-color: #ba2e2e;
+  color: #dbd8d4;
+  width: 45px;
+  height: 40px;
+
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 10px;
+
+  border: none;
+
+  cursor: pointer;
+
+  top: 145px;
+  left: 355px;
+
+  transition: 0.4s;
+}
+
+.edit:hover {
+  transform: scale(1.1);
+  background-color: #242fc4;
+}
+.remove:hover {
+  transform: scale(1.1);
+  background-color: #ce1313;
+}

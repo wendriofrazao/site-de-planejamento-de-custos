@@ -1,0 +1,60 @@
+{
+  "projets": [
+    {
+      "id": "41bf",
+      "name": "jjhgjhg",
+      "valor": "22222",
+      "category": {
+        "id": "4",
+        "name": "Design",
+        "color": "#B48392"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "337c",
+      "name": "ghghgfhg",
+      "valor": "6666",
+      "category": {
+        "id": "5",
+        "name": "Planejamento",
+        "color": "#8451A6"
+      },
+      "cost": 0,
+      "services": []
+    }
+  ],
+  "categores": [
+    {
+      "id": "1",
+      "name": "Infraestutura",
+      "color": "#733C1D"
+    },
+    {
+      "id": "2",
+      "name": "Desenvolvimento",
+      "color": "#BF3B3B"
+    },
+    {
+      "id": "3",
+      "name": "Marketing",
+      "color": "#F27329"
+    },
+    {
+      "id": "4",
+      "name": "Design",
+      "color": "#B48392"
+    },
+    {
+      "id": "5",
+      "name": "Planejamento",
+      "color": "#8451A6"
+    },
+    {
+      "id": "6",
+      "name": "RH - Recursos Humanos",
+      "color": "#3772A6"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+/* google font  */
+@import url("https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Benne&family=Lemonada:wght@300..700&family=Lexend+Giga:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+FR+Trad:wght@100..400&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Ribeye&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Benne&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Lemonada:wght@300..700&family=Lexend+Giga:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+FR+Trad:wght@100..400&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Ribeye&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap");
+
+/* estilização da pagina home */
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 1300px;
+  height: 675px;
+
+  /* background-color: rgba(137, 173, 173, 0.598); */
+
+  border-radius: 10px;
+  filter: drop-shadow(0px 0px 10px rgb(132, 151, 151));
+}
+
+.section h1 {
+  text-align: center;
+  margin-bottom: 8px;
+
+  font-size: 2em;
+  font-family: "Merienda", serif;
+}
+
+.section span {
+  margin-left: 10px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.p01 {
+  color: rgb(109, 43, 43);
+  letter-spacing: 2px;
+
+  margin-top: 15px;
+
+  font-family: "Benne", serif;
+  font-weight: 600;
+  font-size: 17px;
+  font-style: normal;
+}
+.p02 {
+  margin-top: 10px;
+  color: rgb(68, 31, 68);
+
+  font-family: "Merienda", serif;
+  font-weight: 500;
+  font-size: 1em;
+  font-style: italic;
+}
+
+.button {
+  margin-top: 25px;
+  margin-bottom: 30px;
+
+  width: 140px;
+  height: 35px;
+
+  border-radius: 10px;
+  border: none;
+  /* border: 2px solid rgb(153, 96, 35); */
+
+  /* filter: drop-shadow(0px 0px 5px rgba(155, 173, 173, 0.455)); */
+
+  color: rgb(249, 248, 247);
+  background-color: rgba(141, 184, 184, 0.98);
+
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgba(127, 162, 162, 0.992);
+}
+
+.button:active {
+  transform: scale(0.95);
+}
